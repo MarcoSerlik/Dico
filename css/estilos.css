@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+html {
+  scroll-behavior: smooth; }
+
+.c__violeta {
+  color: #8011F2; }
+
+.c__azul {
+  color: #0E153A; }
+
+.c__celeste {
+  color: #5CA4AE; }
+
+.c__blanco {
+  color: #FFFFFF; }
+
+.c__griso {
+  color: #434343; }
+
+.c__grisc {
+  color: #b5b5b5; }
+
+.t__regular {
+  font-style: normal;
+  font-weight: 400; }
+
+.t__medium {
+  font-style: medium;
+  font-weight: 500; }
+
+.t__heavy {
+  font-weight: 400; }
+
+.t__black {
+  font-weight: 900; }
+
+.t__italic {
+  font-style: italic; }
+
+.t__bold {
+  font-style: bold;
+  font-weight: 700; }
+
+.t__nav {
+  font-style: normal;
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+  color: #0E153A; }
+
+.t__h1 {
+  font-size: 4rem;
+  line-height: 4.25rem; }
+
+.t__tituloS {
+  font-size: 4.375rem;
+  line-height: 4.5rem; }
+
+.t__tituloB {
+  font-size: 4rem;
+  line-height: 4.125rem; }
+
+.t__subtitulo {
+  font-size: 1.5rem;
+  line-height: 1.625rem; }
+
+.t__subtitulohome {
+  font-size: 1.125rem;
+  line-height: 1.25rem; }
+
+.t__body {
+  font-size: 1rem;
+  color: #000000; }
+
+.t__buttonT {
+  font-size: 1.1rem;
+  color: #FFFFFF; }
+
+.t__buttonS {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #b5b5b5; }
+
+.t__listas {
+  font-size: 1rem;
+  line-height: 1.125rem;
+  color: #707070; }
+
+.t__subPrimerSeccion {
+  font-size: 38px;
+  line-height: 50px; }
+
+.t__footer__Titulos {
+  font-size: 1.25rem; }
+
+.t__footert__text {
+  font-size: 0.875rem; }
+
+button {
+  box-shadow: 0px 5px 6px -6px #000000;
+  border-radius: 5px; }
+
+input {
+  border-color: #8011F2;
+  border-radius: 5px;
+  height: 40px; }
+
+input:focus {
+  outline: none; }
+
+.buttonHome {
+  background-color: #0E153A;
+  color: #FFFFFF;
+  width: 200px;
+  height: 65px;
+  border: none;
+  border-radius: 16px;
+  margin-left: 14px; }
+
+.buttonNav:hover {
+  background-color: #BE80FF;
+  text-decoration: none; }
+
+.buttonHome:hover {
+  background-color: #8011F2; }
+
+footer input {
+  border-radius: 6px; }
+
+footer button {
+  border-radius: 6px; }
+
+footer {
+  margin-top: 30px;
+  background-color: #0E153A;
+  padding: 30px; }
+  footer li {
+    list-style-type: none; }
+  footer img {
+    width: 100%; }
+  footer .redes li {
+    display: inline-block; }
+  footer input {
+    height: 35px;
+    border-color: #8011F2; }
+  footer button {
+    background-color: #0E153A;
+    border-color: #8011F2;
+    box-shadow: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 10%; }
+  footer button:hover {
+    background-color: #8011F2; }
+  footer h4 {
+    margin: 10px auto; }
+  footer .mail {
+    margin-top: 5px; }
+  footer .dicoDerechos {
+    margin-top: 5px; }
+  footer i {
+    color: #FFFFFF; }
+  footer i:hover {
+    color: #8011F2; }
+  footer .container {
+    margin-bottom: 10px;
+    padding-bottom: 10px; }
+  footer input {
+    padding: 5px; }
+
+@media (max-width: 991.98px) {
+  footer img {
+    width: 150px;
+    margin: 15px auto; }
+  footer .redes {
+    margin: 15px auto; }
+    footer .redes li {
+      margin-top: 10px;
+      font-size: 25px; }
+  footer button {
+    margin-top: 10px;
+    width: 30%; } }
+
+header img {
+  width: 120px; }
+
+header li {
+  margin-right: 23px; }
+
+header a:hover {
+  text-decoration: underline #8011F2 solid 2px; }
+
+header .dropdown-menu {
+  border-radius: 8px;
+  box-shadow: 0px 5px 6px -6px #000000; }
+
+header .item-contacto {
+  background-color: #8011F2;
+  border-radius: 5px;
+  width: 100px;
+  color: #FFFFFF !important;
+  box-shadow: 0px 5px 6px -6px #000000; }
+
+.headerAzul {
+  background-color: #0E153A; }
+
+#home h1 {
+  margin-top: 110px; }
+
+#home p {
+  margin-top: 20px;
+  height: auto; }
+
+#home a {
+  color: #FFFFFF; }
+
+.tituloh1 {
+  width: 500px; }
+
+.primerBanner {
+  margin-top: 75px; }
+
+.primerBannerSub {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 18px;
+  width: 30%; }
+
+.tarjetas {
+  margin: 40px 20px;
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 6px -6px #000000;
+  text-align: center; }
+  .tarjetas img {
+    width: 250px;
+    height: auto; }
+  .tarjetas p {
+    width: 80%;
+    height: 30%;
+    font-size: small; }
+
+.tarjeta-1 h3, .tarjeta-2 h3, .tarjeta-3 h3 {
+  margin-top: 18px; }
+
+.tarjeta-1 p, .tarjeta-2 p, .tarjeta-3 p {
+  margin-top: 25px; }
+
+.porqueDico {
+  margin: 40px auto;
+  height: auto;
+  width: auto;
+  background-image: url(../img/fondo1280.png);
+  background-position: center;
+  background-size: cover; }
+  .porqueDico h2 {
+    margin-top: 110px; }
+  .porqueDico p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #434343; }
+  .porqueDico .ahorrar {
+    margin: 60px auto; }
+
+#mvp {
+  margin: 90px auto; }
+  #mvp img {
+    height: 400px; }
+  #mvp a {
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    border-color: #8011F2;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    color: #8011F2;
+    border: #8011F2 1px solid; }
+  #mvp a:hover {
+    background-color: #8011F2;
+    color: #FFFFFF; }
+
+.clientes {
+  margin: 90px auto; }
+  .clientes h3 {
+    margin-top: 40px; }
+
+.carrouselClientes {
+  margin-top: 40px; }
+
+.carousel-inner {
+  border-radius: 22px; }
+
+#contacto {
+  height: auto;
+  padding: 30px;
+  margin: 100px auto;
+  box-shadow: 0px 5px 6px -6px #000000;
+  border-radius: 70px; }
+  #contacto input {
+    margin-top: 30px; }
+  #contacto button {
+    background-color: #8011F2;
+    width: 100px;
+    padding: 5px;
+    margin-top: 30px;
+    outline: none;
+    border: none; }
+  #contacto button:hover {
+    background-color: #BE80FF; }
+
+@media (max-width: 575.98px) {
+  #home h1 {
+    margin-top: 40px;
+    width: auto; }
+  #home p {
+    width: 100%;
+    margin-top: 20px;
+    height: auto; }
+  .primerBanner {
+    margin-top: 10px; }
+  .tituloh1 {
+    width: auto; } }
+
+@media (max-width: 767.98px) {
+  .buttonMvp button {
+    margin: 20px auto auto auto; }
+  #home {
+    background-image: none; } }
+
+@media (max-width: 991.98px) {
+  .portada {
+    background-image: none;
+    height: auto; }
+  #home {
+    margin-bottom: 100px; }
+    #home .container {
+      height: auto; }
+    #home button {
+      margin: 20px auto auto auto; }
+  .tituloh1 {
+    width: 100%; }
+  .primerBannerSub {
+    width: 100%; }
+  .porqueDico {
+    background-image: none; }
+  .mvp button {
+    margin: 20px auto auto auto; }
+  .mockup {
+    background-image: url(../img/fondo1280.png);
+    background-position: center;
+    background-size: cover; } }
+
+@media (min-width: 992px) {
+  .portada {
+    height: 110vh;
+    width: 100%;
+    background-image: url(../img/fondohome.png);
+    background-position: center;
+    background-size: cover; }
+  .mvp p {
+    width: 85%; }
+  #contacto img {
+    width: 80%; }
+  #contacto input, #contacto button {
+    margin-top: 60px; }
+  #contacto .inputMail {
+    margin-left: 5px; } }
+
+.sobreDicoHeader {
+  height: 45vh;
+  width: 100%;
+  background-image: url(../img/headerNosotros.png);
+  background-position: center;
+  background-size: cover; }
+  .sobreDicoHeader h1 {
+    padding-top: 100px; }
+
+.serviciosHeader {
+  height: 50vh;
+  width: 100%;
+  background-image: url(../img/headerSevicios.png);
+  background-position: center;
+  background-size: cover; }
+  .serviciosHeader h1 {
+    font-size: 2.5rem;
+    line-height: 2.75rem; }
+  .serviciosHeader p {
+    padding-top: 110px; }
+
+.serviciosContainer {
+  margin-top: 40px; }
+
+.serviciosCards {
+  width: 400px;
+  height: 400px;
+  color: #FFFFFF;
+  overflow: hidden; }
+  .serviciosCards img {
+    width: 100%; }
+
+.firstCard {
+  background-color: #5CA4AE; }
+
+.lastCard {
+  background-color: #0E153A; }
+
+.precios hr {
+  border-color: #8011F2;
+  width: 71%; }
+
+.preciosCards {
+  width: 250px;
+  height: 350px;
+  background-color: #0E153A;
+  margin-top: 20px;
+  color: #FFFFFF; }
+
+.preciosCards:nth-child(2) {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.transformamos hr {
+  border-color: #8011F2;
+  width: 34%;
+  margin: 5px; }
+
+.trasnformamosTitle {
+  margin-top: 50px; }
+
+#mvp img {
+  margin-top: 30px; }
+
+#mvp .textoMVP {
+  margin-top: 90px; }
+
+#mvp .bannerMVP {
+  margin-top: 30px;
+  margin-bottom: 35px; }
+
+.contenedor-cajas {
+  padding: 0; }
+
+.caja {
+  width: 50%;
+  height: auto;
+  margin: 0; }
+
+.caja-text-1 {
+  background-color: #8011F2;
+  color: #FFFFFF;
+  padding: 60px;
+  text-align: end; }
+
+.caja-text-2 {
+  background-color: #0E153A;
+  color: #FFFFFF;
+  padding: 60px; }
+
+.contactoLanding {
+  padding: 40px;
+  margin: 60px auto;
+  border-radius: 60px;
+  box-shadow: 0px 5px 6px -6px #000000; }
+  .contactoLanding input {
+    border-color: #8011F2; }
+  .contactoLanding button {
+    background-color: #0E153A;
+    border: none;
+    height: 40px;
+    width: 120px; }
+  .contactoLanding img {
+    margin-top: 80px; }
+
+.contactoHeader {
+  height: 45vh;
+  width: 100%;
+  background-image: url(../img/headerContacto.png);
+  background-position: center;
+  background-size: cover; }
+  .contactoHeader h1 {
+    font-size: 2.5rem;
+    line-height: 2.75rem; }
+  .contactoHeader p {
+    padding-top: 110px; }
+
+.mainWorkin {
+  height: 85vh;
+  width: 100%;
+  background-image: url(../img/fondoWorkin.png);
+  background-position: center;
+  background-size: cover; }
+  .mainWorkin div {
+    margin-top: 80px; }
+
+.t-workin {
+  font-size: 2rem; }
+
+.btn-workin {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  border: #8011F2 solid 3px;
+  width: 180px;
+  height: 60px; }
+
+.btn-workin:hover {
+  background-color: #8011F2;
+  color: #FFFFFF; }

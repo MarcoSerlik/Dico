@@ -1,0 +1,26 @@
+header{
+    img{
+        width: 120px;
+        }
+    li{
+        margin-right: 23px;
+    }
+    a:hover{
+        text-decoration: underline $c-violeta solid 2px;
+    }
+    .dropdown-menu{
+        border-radius: 8px;
+        box-shadow: $sombra;
+    }
+    .item-contacto{
+        background-color: $c-violeta;
+        border-radius: 5px;
+        width: 100px;
+        color: $c-blanco !important;
+        box-shadow: 0px 5px 6px -6px #000000;
+    }
+}
+
+.headerAzul{
+    background-color: $c-azul;
+}

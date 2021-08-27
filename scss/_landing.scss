@@ -1,0 +1,55 @@
+#mvp{
+    img{
+        margin-top: 30px;
+    }
+    .textoMVP{
+        margin-top: 90px;
+    }
+    .bannerMVP{
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+}
+
+.contenedor-cajas{
+    padding: 0;
+}
+
+.caja{
+    width: 50%;
+    height: auto;
+    margin: 0;
+}
+
+
+.caja-text-1{
+    background-color: $c-violeta;
+    color: $c-blanco;
+    padding: 60px;
+    text-align: end;
+}
+
+.caja-text-2{
+    background-color: $c-azul;
+    color: $c-blanco;
+    padding: 60px;
+}
+
+.contactoLanding{
+    padding: 40px;
+    margin: 60px auto;
+    border-radius: 60px;
+    box-shadow: $sombra;
+    input{
+        border-color: $c-violeta;
+    }
+    button{
+        background-color: $c-azul;
+        border: none;
+        height: 40px;
+        width: 120px;
+    }
+    img{
+        margin-top:80px;
+    }
+}

@@ -1,0 +1,94 @@
+
+.t__regular{
+    font-style: normal;
+    font-weight: 400;
+}
+
+.t__medium{
+    font-style: medium;
+    font-weight: 500;
+}
+
+.t__heavy{
+    font-weight: 400;
+}
+
+.t__black{
+    font-weight: 900;
+}
+
+.t__italic{
+    font-style: italic;
+}
+
+.t__bold{
+    font-style: bold;
+    font-weight: 700;
+}
+
+.t__nav{
+    font-style: normal;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    color: $c-azul;
+}
+
+.t__h1{
+    font-size: 4rem;
+    line-height: 4.25rem;
+}
+
+.t__tituloS{
+    font-size: 4.375rem;
+    line-height: 4.5rem;
+}
+
+.t__tituloB{
+    font-size: 4rem;
+    line-height: 4.125rem;
+}
+
+.t__subtitulo{
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+}
+
+.t__subtitulohome{
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+
+.t__body{
+    font-size: 1rem;
+    color: #000000;
+}
+
+.t__buttonT{
+    font-size: 1.1rem;
+    color: $c-blanco;
+}
+
+.t__buttonS{
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: $c-grisc;
+}
+
+.t__listas{
+    font-size: 1rem;
+    line-height: 1.125rem;
+    color: #707070;
+}
+
+.t__subPrimerSeccion{
+    font-size: 38px;
+    line-height: 50px;
+}
+
+.t__footer__Titulos{
+    font-size: 1.25rem;
+}
+
+.t__footert__text{
+    font-size: 0.875rem;
+}

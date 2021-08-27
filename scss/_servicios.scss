@@ -1,0 +1,69 @@
+.serviciosHeader{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/headerSevicios.png);
+    background-position: center;
+    background-size: cover;
+    h1{
+        font-size: 2.5rem;
+        line-height: 2.75rem;
+    }
+    p{
+        padding-top: 110px;
+    }
+}
+
+.serviciosContainer{
+margin-top: 40px;
+}
+
+.serviciosCards{
+    width: 400px;
+    height: 400px;
+    color: $c-blanco;
+    img{
+        width: 100%;
+    }
+    overflow: hidden;
+}
+
+.firstCard{
+    background-color: $c-celeste;
+}
+
+.lastCard{
+    background-color: $c-azul;
+}
+
+.precios{
+    hr{
+        border-color: $c-violeta;
+        width: 71%;
+    }
+}
+
+.preciosCards{
+    width: 250px;
+    height: 350px;
+    background-color: $c-azul;
+    margin-top: 20px;
+    color: $c-blanco;
+}
+
+.preciosCards:nth-child(2){
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.transformamos{
+    hr{
+        border-color: $c-violeta;
+        width: 34%;
+        margin: 5px;
+    }
+}
+
+.trasnformamosTitle{
+    margin-top: 50px;
+}
+

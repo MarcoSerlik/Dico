@@ -1,0 +1,73 @@
+footer{
+    margin-top: 30px;
+    background-color: $c-azul;
+    padding: 30px;
+    li{
+        list-style-type: none;
+    }
+    img{
+        width: 100%;
+    }
+    .redes{
+        li{
+            display: inline-block;
+        }
+    }
+    input{
+        height: 35px;
+        border-color: $c-violeta;
+    }
+    button{
+        background-color: $c-azul;
+        border-color: $c-violeta;
+        box-shadow: none;
+        border-radius: 5px;
+        height: 35px;
+        width: 10%;
+    }
+    button:hover{
+        background-color: $c-violeta;
+    }
+    h4{
+        margin:  10px auto;
+    }
+    .mail{
+        margin-top: 5px;
+    }
+    .dicoDerechos{
+        margin-top: 5px;
+    }
+    i{
+        color: $c-blanco;
+    }
+    i:hover{
+        color: $c-violeta;
+    }
+    .container{
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    input{
+        padding: 5px;
+    }
+}
+
+@media (max-width: 991.98px){
+    footer{
+        img{
+            width: 150px;
+            margin: 15px auto;
+        }
+        .redes{
+            margin: 15px auto;
+            li{
+                margin-top: 10px;
+                font-size: 25px;
+            }
+        }
+        button{
+            margin-top: 10px;
+            width: 30%;
+        }
+    }
+}

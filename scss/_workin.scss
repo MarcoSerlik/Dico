@@ -1,0 +1,28 @@
+.mainWorkin{
+    height: 85vh;
+    width: 100%;
+    background-image: url(../img/fondoWorkin.png);
+    background-position: center;
+    background-size: cover;
+    div{
+        margin-top: 80px;
+    }
+}
+
+.t-workin{
+    font-size: 2rem;
+}
+
+.btn-workin{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    background-color: $c-blanco;
+    border: $c-violeta solid 3px;
+    width: 180px;
+    height: 60px;
+}
+
+.btn-workin:hover{
+    background-color: $c_violeta;
+    color: $c-blanco;
+}
